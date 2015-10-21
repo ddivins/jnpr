@@ -27,6 +27,9 @@ userPassword = 'jnpr123'
 package = 'code/junos-vsrx-12.1X46-D35.1-domestic.tgz'
 remote_path = '/var/tmp'
 validate = True
+#noCopy tells script whether to scp code
+#True means code is already on device
+#False means Copy Code
 noCopy = True
 
 #Create 2D Array from csv [name,ip]
