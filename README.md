@@ -17,7 +17,7 @@ Directory contains templates to create new scripts
 Directory contains your custom yaml files  
 Custom version of PhyPortErrorStats provided  
 
-#getLogs.py  
+##getLogs.py  
 Script to tgz the "/var/logs" directory and then scp the files over  
  
 ##getRSI.py  
