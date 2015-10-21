@@ -7,12 +7,19 @@ Format is "host,ip"
 Please have at least 2 rows  
 sample "csv.csv" is provided  
 
+##output
+Default directory for output of scripts
+
 ##templates  
 Directory contains templates to create new scripts  
 
 ##yaml  
 Directory contains your custom yaml files  
 Custom version of PhyPortErrorStats provided  
+
+##getRSI.py  
+Script to get "request support information" into individual files  
+Caution, script takes time  
 
 ##pushCode.py  
 Script to scp JunOS code to a device  
