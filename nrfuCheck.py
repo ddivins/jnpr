@@ -46,8 +46,8 @@ def main():
                 	now1 = datetime.datetime.now()
                 	pprint("NRFU Check on " + row[0] + " | " + row[1] + " at " + now1.strftime("%Y-%m-%d %H:%M"))
 
-                	dev.open()
-                	dev.timeout = 300
+			dev.open()
+			dev.timeout = 300
 			phyErrorTable = MyPhyPortErrorTable(dev).get()
 
         	except Exception as err:                               
