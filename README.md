@@ -24,6 +24,11 @@ Script to tgz the "/var/logs" directory and then scp the files over
 Script to get "request support information" into individual files  
 Caution, script takes time  
 
+##nrfuCheck.py  
+Script to run a customer's Network Ready For Use Test (NRFU)  
+Checks for Input/Output errors  
+Runs a number of show commands  
+
 ##pushCode.py  
 Script to scp JunOS code to a device  
 Does not install software, simple transfers and does md5  
