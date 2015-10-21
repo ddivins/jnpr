@@ -72,7 +72,23 @@ def main():
 			for intf in phyErrorTable:
 				text_file.write(intf.name + '\n')
 				text_file.write('{} : {}'.format("Input Errors",intf.rx_err_input) + '\n')
+				text_file.write('{} : {}'.format("Input Drops",intf.rx_err_drops) + '\n')
+				text_file.write('{} : {}'.format("Input Framing Errors",intf.rx_err_frame) + '\n')
+				text_file.write('{} : {}'.format("Input Runts",intf.rx_err_runts) + '\n')
+				#text_file.write('{} : {}'.format("Input L3-Incompletes",intf.rx_err_l3-incompletes) + '\n')
+				#text_file.write('{} : {}'.format("Input L2-Channel Errors",intf.rx_err_l2-channel) + '\n')
+				#text_file.write('{} : {}'.format("Input L2-Mismatch Timing",intf.rx_err_l2-mismatch) + '\n')
+				text_file.write('{} : {}'.format("Input FIFO Errors",intf.rx_err_fifo) + '\n')
+				text_file.write('{} : {}'.format("Input Resource Errors",intf.rx_err_resource) + '\n')
 				text_file.write('{} : {}'.format("Output Errors",intf.tx_err_output) + '\n')
+				#text_file.write('{} : {}'.format("Output Carrier Transitions",intf.tx_err_carrier-transitions) + '\n')
+				text_file.write('{} : {}'.format("Output Collisions",intf.tx_err_collisions) + '\n')
+				text_file.write('{} : {}'.format("Output Drops",intf.tx_err_drops) + '\n')
+				text_file.write('{} : {}'.format("Output Aged-Packets",intf.tx_err_aged) + '\n')
+				text_file.write('{} : {}'.format("Output MTU Errors",intf.tx_err_mtu) + '\n')
+				#text_file.write('{} : {}'.format("Output HS-Link-CRC Errors",intf.tx_err_hs-crc) + '\n')
+				text_file.write('{} : {}'.format("Output FIFO Errors",intf.tx_err_fifo) + '\n')
+				text_file.write('{} : {}'.format("Output Resouce Errors",intf.tx_err_resource) + '\n')
 			text_file.write('\n')
 
 			#Do RPC Show Commands
