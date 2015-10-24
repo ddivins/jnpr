@@ -21,7 +21,7 @@ from jnpr.junos.exception import *
 csv = 'csv/csv.csv'
 userName = 'juniper'
 userPassword = 'jnpr123'
-conf_file = 'configs/conf.set'
+conf_file = 'configs/conf1.set'
 
 #Create 2D Array from csv [name,ip]
 devList=np.genfromtxt(csv,delimiter=',',dtype=None)
@@ -43,7 +43,7 @@ def main():
 
 			#Open Device with Custom Timer
 			dev.open()
-			dev.timeout = 300
+			dev.timeout = 600
 
         	except Exception as err:                               
                 	sys.stderr.write('Cannot connect to device: {0}\n'.format(err))
@@ -59,17 +59,13 @@ def main():
 			print "Locking the configuration"
 			try:
 				dev.cu.lock()
-				print "Locked"
 			except LockError:
 				print "Error: Unable to lock configuration"
-				dev.close()
-				return
 			
 			#Load The Config
 			print "Loading configuration changes"
 			try:
 				dev.cu.load(path=conf_file, merge=True)
-				print "Loaded"
                 	except Exception as err:
                         	sys.stderr.write(err.message)
 			except ValueError as err:
@@ -84,24 +80,20 @@ def main():
 			       		dev.cu.unlock()
 				except UnlockError:
 			        	print "Error: Unable to unlock configuration"
-				dev.close()
-				return
 
 			#Commit the Config
 			print "Committing the configuration"
 			try:
-				dev.cu.commit()
-				print "Commited"
-			except CommitError:
-				print "Error: Unable to commit configuration"
-				print "Unlocking the configuration"
-				try:
-					dev.cu.unlock()
-				except UnlockError:
-					print "Error: Unable to unlock configuration"
-				dev.close()
-				return
-				
+				if dev.cu.commit_check() is True:
+					try:
+						print dev.cu.pdiff(rb_id=0)
+						dev.cu.commit()
+					except CommitError:
+						print "Error: Unable to commit configuration"
+			
+                	except Exception as err:
+                        	sys.stderr.write("Commit Issues: " + err.message)
+
 			#Unlock the config
 			print "Unlocking the configuration"
 			try:
