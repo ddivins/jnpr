@@ -24,6 +24,7 @@ Custom version of PhyPortErrorStats provided
 ##configDevice.py  
 Script to push identical code bits to all devices  
 Code snippet is in seperate file in config directory  
+NOTE: Not a ton of error checking (yet)  
 
 ##getLogs.py  
 Script to tgz the "/var/logs" directory and then scp the files over  
