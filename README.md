@@ -1,6 +1,10 @@
 # jnpr
 JunOS PyEZ
 
+##configs  
+Directory containing config snippets  
+Sample "config.set" is provided  
+
 ##csv  
 Directory contains your host file to iterate over  
 Format is "host,ip"  
@@ -17,6 +21,10 @@ Directory contains templates to create new scripts
 Directory contains your custom yaml files  
 Custom version of PhyPortErrorStats provided  
 
+##configDevice.py  
+Script to push identical code bits to all devices  
+Code snippet is in seperate file in config directory  
+
 ##getLogs.py  
 Script to tgz the "/var/logs" directory and then scp the files over  
  
@@ -30,11 +38,11 @@ Checks for Input/Output errors
 Runs a number of show commands  
 
 ##pushCode.py  
-Script to scp JunOS code to a device  
+Script to scp JunOS code to a device   
 Does not install software, simple transfers and does md5  
 Companion script is upgradeDevice.py  
 
 ##upgradeDevice.py  
-Script to upgrade JunOS
+Script to upgrade JunOS  
 Code can be staged (via pushCode.py or other means)  
 This script can upload code as well, however, it will upgrade and reboot devices  
