@@ -1,0 +1,765 @@
++++++++++++++++++++++++++++++++++++++++++++++++++
+ffp
+12.1X46-D35.1
+
+show interface statistics | match errors
+ge-0/0/0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : 0
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : 0
+Output Drops : 0
+Output Aged-Packets : 0
+Output MTU Errors : 0
+Output FIFO Errors : 0
+Output Resouce Errors : 0
+gr-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+ip-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+lsq-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+lt-0/0/0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+mt-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+sp-0/0/0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+ge-0/0/1
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : 0
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : 0
+Output Drops : 0
+Output Aged-Packets : 0
+Output MTU Errors : 0
+Output FIFO Errors : 0
+Output Resouce Errors : 16
+.local.
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+dsc
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+gre
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+ipip
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+lo0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+lsi
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+mtun
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+pimd
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+pime
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+pp0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+ppd0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+ppe0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+st0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+tap
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+vlan
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+
+show bgp summary
+<output>
+Groups: 2 Peers: 2 Down peers: 0
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0                 0          0          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+172.16.74.6           65001         63         63       0      13       27:00 Establ
+  VR01.inet.0: 0/0/0/0
+172.16.74.7           65002       2241       2266       0      13       27:00 Establ
+  inet.0: 0/0/0/0
+</output>
+
+show isis adjancency<output>
+Interface             System         L State        Hold (secs) SNPA
+ge-0/0/0.0            0241.6126.4025 1  Up                    7  0:c:29:a1:94:bd
+ge-0/0/0.0            0241.6126.4025 2  Up                    6  0:c:29:a1:94:bd
+</output>
+
+show system core-dumps
+<directory-list root-path="/var/crash/*core*" seconds="1445440442" style="verbose">
+<output>
+/var/crash/*core*: No such file or directory
+</output>
+<output>
+/var/tmp/*core*: No such file or directory
+</output>
+<output>
+/var/tmp/pics/*core*: No such file or directory
+</output>
+<output>
+/var/crash/kernel.*: No such file or directory
+</output>
+<output>
+/tftpboot/corefiles/*core*: No such file or directory
+</output>
+</directory-list>
+
+show system alarms
+<output>
+1 alarms currently active
+Alarm time               Class  Description
+2015-10-20 22:24:45 UTC  Minor  Rescue configuration is not set
+</output>
+
+show chassis environment
+<output>
+Class Item                           Status     Measurement
+Temp  Routing Engine                 Testing   
+      Routing Engine CPU             Absent    
+Power Power Supply 0                 OK        
+</output>
++++++++++++++++++++++++++++++++++++++++++++++++++
+Cannot connect to device: ConnectTimeoutError(172.16.74.22)
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+Cannot perfoen RPC on device: 'hostname'
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+ffp
+12.1X46-D35.1
+
+show interface statistics | match errors
+ge-0/0/0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : 0
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : 0
+Output Drops : 0
+Output Aged-Packets : 0
+Output MTU Errors : 0
+Output FIFO Errors : 0
+Output Resouce Errors : 0
+gr-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+ip-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+lsq-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+lt-0/0/0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+mt-0/0/0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+sp-0/0/0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+ge-0/0/1
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : 0
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : 0
+Output Drops : 0
+Output Aged-Packets : 0
+Output MTU Errors : 0
+Output FIFO Errors : 0
+Output Resouce Errors : 16
+.local.
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+dsc
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+gre
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+ipip
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+lo0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+lsi
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+mtun
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+pimd
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+pime
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+pp0
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+ppd0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+ppe0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+st0
+Input Errors : None
+Input Drops : None
+Input Framing Errors : None
+Input Runts : None
+Input FIFO Errors : None
+Input Resource Errors : None
+Output Errors : None
+Output Collisions : None
+Output Drops : None
+Output Aged-Packets : None
+Output MTU Errors : None
+Output FIFO Errors : None
+Output Resouce Errors : None
+tap
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+vlan
+Input Errors : 0
+Input Drops : 0
+Input Framing Errors : 0
+Input Runts : 0
+Input FIFO Errors : None
+Input Resource Errors : 0
+Output Errors : 0
+Output Collisions : None
+Output Drops : 0
+Output Aged-Packets : None
+Output MTU Errors : 0
+Output FIFO Errors : None
+Output Resouce Errors : 0
+
+show bgp summary
+<output>
+Groups: 2 Peers: 2 Down peers: 0
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0                 0          0          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+172.16.74.6           65001         63         64       0      13       27:06 Establ
+  VR01.inet.0: 0/0/0/0
+172.16.74.7           65002       2242       2266       0      13       27:06 Establ
+  inet.0: 0/0/0/0
+</output>
+
+show isis adjancency<output>
+Interface             System         L State        Hold (secs) SNPA
+ge-0/0/0.0            0241.6126.4025 1  Up                    7  0:c:29:a1:94:bd
+ge-0/0/0.0            0241.6126.4025 2  Up                    8  0:c:29:a1:94:bd
+</output>
+
+show system core-dumps
+<directory-list root-path="/var/crash/*core*" seconds="1445440447" style="verbose">
+<output>
+/var/crash/*core*: No such file or directory
+</output>
+<output>
+/var/tmp/*core*: No such file or directory
+</output>
+<output>
+/var/tmp/pics/*core*: No such file or directory
+</output>
+<output>
+/var/crash/kernel.*: No such file or directory
+</output>
+<output>
+/tftpboot/corefiles/*core*: No such file or directory
+</output>
+</directory-list>
+
+show system alarms
+<output>
+1 alarms currently active
+Alarm time               Class  Description
+2015-10-20 22:24:45 UTC  Minor  Rescue configuration is not set
+</output>
+
+show chassis environment
+<output>
+Class Item                           Status     Measurement
+Temp  Routing Engine                 Testing   
+      Routing Engine CPU             Absent    
+Power Power Supply 0                 OK        
+</output>
++++++++++++++++++++++++++++++++++++++++++++++++++
