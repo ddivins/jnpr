@@ -132,7 +132,7 @@ def main():
 
         	except Exception as err:
 			sys.stderr.write('Cannot perform RPC on device: {0}\n'.format(err))
-                	text_file.write('Cannot perfoen RPC on device: {0}\n'.format(err) + '\n')
+                	text_file.write('Cannot perform RPC on device: {0}\n'.format(err) + '\n')
                 	text_file.write("+++++++++++++++++++++++++++++++++++++++++++++++++")
                 	text_file.write('\n')
 
