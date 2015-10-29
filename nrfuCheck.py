@@ -19,6 +19,8 @@ csv = 'csv/csv.csv'
 userName = 'juniper'
 userPassword = 'jnpr123'
 save_path = 'output'
+#save file name prefix
+prefix = 'dev'
 
 #Create 2D Array from csv [name,ip]
 devList=np.genfromtxt(csv,delimiter=',',dtype=None)
@@ -30,7 +32,7 @@ globals().update(mydefs)
 def main():
 	#Setup for output
 	now = datetime.datetime.now()
-	txt = os.path.join(save_path, "nrfu-" + now.strftime("%Y%m%d-%H%M") + ".txt")
+	txt = os.path.join(save_path, "nrfu-" + prefix + "-" + now.strftime("%Y%m%d-%H%M") + ".txt")
 	text_file =  open(txt, "w")
 	text_file.write("+++++++++++++++++++++++++++++++++++++++++++++++++")
 	text_file.write('\n')
