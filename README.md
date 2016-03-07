@@ -33,6 +33,9 @@ Script to tgz the "/var/logs" directory and then scp the files over
 Script to get "request support information" into individual files  
 Caution, script takes time  
 
+##getStats.py
+Script to pull interface statistics from all interfaces. Right now, it pulls bps and pps.
+
 ##nrfuCheck.py  
 Script to run a customer's Network Ready For Use Test (NRFU)  
 Checks for Input/Output errors  
